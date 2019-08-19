@@ -460,7 +460,6 @@ hr {
 #menu li {
   display:inline-block;
   margin: 0;
-  padding: 1em 0.5em;
 }
 #menu li.active {
   background: #eee;
@@ -469,6 +468,9 @@ hr {
   background: #fff;
 }
 #menu a {
+  display: inline-block;
+  margin: 0;
+  padding: 1em 0.5em;
   text-decoration: none;
   text-transform: uppercase;
   color: #222;
