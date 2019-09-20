@@ -1,0 +1,56 @@
+{
+    "instances": [
+        {
+            "kind": "image",
+            "url": "https://eimermusic.com/links/instances/one.jpg"
+        },
+        {
+            "kind": "image",
+            "url": "https://eimermusic.com/links/instances/two.jpg"
+        },
+        {
+            "kind": "image",
+            "url": "https://eimermusic.com/links/instances/three.jpg"
+        },
+        {
+            "kind": "image",
+            "url": "https://eimermusic.com/links/instances/four.jpg"
+        },
+        {
+            "kind": "image",
+            "url": "https://eimermusic.com/links/instances/five.jpg"
+        },
+        {
+            "kind": "image",
+            "url": "https://eimermusic.com/links/instances/six.jpg"
+        },
+        {
+            "kind": "image",
+            "url": "https://eimermusic.com/links/instances/seven.jpg"
+        }
+    ],
+    "meta": {
+        "account_name": "Promo Demo Account",
+        "created_at": "2019-07-25T00:37:16Z",
+        "expires_at": "2021-09-12T00:00:00Z",
+        "logo": "https://eimermusic.com/links/logo.png",
+        "promo_heading": "Test heading",
+        "promo_widgets": [
+            {
+                "kind": "text",
+                "text": "Sample plain text. This is just some sample test."
+            },
+            {
+                "kind": "button",
+                "target_url": "https://google.com",
+                "text": "Sample Button Label"
+            },
+            {
+                "kind": "image",
+                "source_url": "https://eimermusic.com/links/image.png",
+                "target_url": "https://github.com",
+            },
+        ]
+    }
+}
+
