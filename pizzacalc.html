@@ -29,17 +29,45 @@
 </head>
 <body>
 
+  <nav id="menu">
+    <ul>
+      <li class="home"><a href="#pizza">&nbsp;<img src="images/e-logo.svg" id="e-logo" />&nbsp;</a></li>
+    </ul>
+  </nav>
+
+
+  <!-- Primary Page Layout
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <div id="pizza" class="container">
+    <div class="row">
+      <div class="column">
+        <h2>Pizzacalculator Beta</h2>
+        <h3><a href="pizzacalc/pizzacalc.plist">Download</a></h3>
+        <br><br><br>
+      </div>
+    </div>
+  </div>
+
   <div id="footer">
   <div class="container">
     <div class="row">
 
       <div class="one-half column">
         <p>
+          Martin Westin<br>
+          martin [] eimermusic.com<br>
+          +46 (0)709 88 55 88<br>
         </p>
       </div>
 
       <div class="one-half column">
         <p>
+          <a href="http://extraction.eimermusic.com.s3-website-eu-west-1.amazonaws.com/">Extraction Microsite</a><br>
+          <a href="http://syntar.eimermusic.com.s3-website-eu-west-1.amazonaws.com/">Syntar Microsite</a><br>
+
+          <a href="https://github.com/eimermusic">Github</a><br>
+          <a href="https://soundcloud.com/eimermusic">Soundcloud</a><br>
+          <a href="https://www.flickr.com/people/eimermusic/">Flickr</a><br>
         </p>
       </div>
     </div>
@@ -69,25 +97,6 @@
       duration: 250,
     });
   </script>
-
-<script>
-  window.announcekit = (window.announcekit || { queue: [], on: function(n, x) {
-    window.announcekit.queue.push([n, x]); }, push: function(x) { window.announcekit.queue.push(x); }
-  });
-
-  window.announcekit.push({
-    "widget": "https://announcekit.co/widgets/v2/1PD30s",
-    float: {
-      style: {
-        width: "50px",
-        height: "50px",
-        "border-radius": "100px"
-      }
-    }
-
-  })
-</script>
-<script async src="https://cdn.announcekit.app/widget-v2.js"></script>
 
 </body>
 </html>
