@@ -566,7 +566,11 @@ hr {
   }
 }
 
-
+#privacy {
+  padding-top: 2em;
+  padding-bottom: 2em;
+  min-height: 100vh;
+}
 /* Media Queries
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 /*
