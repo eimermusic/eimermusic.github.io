@@ -137,18 +137,18 @@ h1, h2, h3, h4, h5, h6 {
 h1 { font-size: 4.0rem; line-height: 1.2;  letter-spacing: -.1rem;}
 h2 { font-size: 2.4rem; line-height: 1.35; letter-spacing: -.08rem; }
 h3 { font-size: 2.0rem; line-height: 1.4;  letter-spacing: -.065rem; margin-bottom: 0rem; }
-h4 { font-size: 2.4rem; line-height: 1.35; letter-spacing: -.08rem; }
-h5 { font-size: 1.8rem; line-height: 1.5;  letter-spacing: -.05rem; }
-h6 { font-size: 1.5rem; line-height: 1.6;  letter-spacing: 0; }
+h4 { font-size: 1.8rem; line-height: 1.35; letter-spacing: -.08rem; margin-bottom: 0rem; }
+h5 { font-size: 1.5rem; line-height: 1.5;  letter-spacing: -.05rem; }
+h6 { font-size: 1.25rem; line-height: 1.6;  letter-spacing: 0; }
 
 /* Larger than phablet */
 @media (min-width: 550px) {
   h1 { font-size: 5.0rem; }
   h2 { font-size: 3.0rem; }
   h3 { font-size: 2.4rem; }
-  h4 { font-size: 3.0rem; }
-  h5 { font-size: 2.4rem; }
-  h6 { font-size: 1.5rem; }
+  h4 { font-size: 2.0rem; }
+  h5 { font-size: 1.6rem; }
+  h6 { font-size: 1.25rem; }
 }
 
 p {
@@ -533,6 +533,39 @@ hr {
   text-align: center;
   font-size: .8rem; line-height: 1.0;  letter-spacing: 1;
 }
+
+#pizzacalc {
+  padding-top: .75em;
+}
+
+#screenshots {
+  max-height: 100vh;
+}
+
+.screenshot-container {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.screenshot-container img {
+  max-width: 100%;
+  height: auto;
+  flex: 1;
+  min-width: 200px;
+}
+@media (max-width: 550px) {
+  .screenshot-container {
+    flex-direction: column;
+  }
+  .screenshot-container img {
+    width: 100%;
+    max-width: 100%;
+  }
+}
+
 
 /* Media Queries
 –––––––––––––––––––––––––––––––––––––––––––––––––– */

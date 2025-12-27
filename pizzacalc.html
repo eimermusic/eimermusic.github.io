@@ -5,9 +5,9 @@
   <!-- Basic Page Needs
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <meta charset="utf-8">
-  <title>Martin Westin</title>
-  <meta name="description" content="">
-  <meta name="author" content="">
+  <title>Pizza Calc - Pizza Dough Calculator</title>
+  <meta name="description" content="Pizza Calc is an iOS app for calculating pizza dough ingredients with support for pre-fermentation methods like poolish and biga.">
+  <meta name="author" content="Martin Westin">
 
   <!-- Mobile Specific Metas
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
@@ -31,58 +31,203 @@
 
   <nav id="menu">
     <ul>
-      <li class="home"><a href="#pizza">&nbsp;<img src="images/e-logo.svg" id="e-logo" />&nbsp;</a></li>
+      <li class="home"><a href="#pizzacalc">Pizza Calc</a></li>
+      <li><a href="#features">Features</a></li>
+      <li><a href="#help">Help</a></li>
+      <li><a href="#support">Support</a></li>
     </ul>
   </nav>
 
-
   <!-- Primary Page Layout
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <div id="pizza" class="container">
+  <div id="pizzacalc" class="container" style="margin-top: 5rem;">
     <div class="row">
-      <div class="column">
-        <h2>Pizzacalculator Beta</h2>
-        <h3><a href="itms-services://?action=download-manifest&url=https://eimermusic.com/pizzacalc/pizzacalc.plist">Download</a></h3>
-        <br><br><br>
+      <div class="one-half column">
+        <h1>Pizza Calc</h1>
+        <p class="dim">Pizza Dough Calculator</p>
+        <p>Calculate exact ingredient amounts for perfect pizza dough every time. Whether you're a beginner home baker experimenting with new recipes or an experienced enthusiast pizza maker, Pizza Calc helps you create consistent, delicious dough with support for popular pre-fermentation techniques.</p>
+      </div>
+      <div class="one-half column screenshot-container">
+        <img src="images/pizzacalc/hero2.png" alt="Hero Screenshot" class="hero-image">
       </div>
     </div>
   </div>
 
+  <hr>
+
+  <!-- Marketing Section
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <div id="features" class="container">
+    <div class="row">
+      <div class="column">
+        <h2>Features</h2>
+      </div>
+    </div>
+    <div class="row">
+      <div class="one-half column">
+        <h3>Precise Calculations</h3>
+        <p>Pizza Calc calculates exact ingredient amounts based on your specifications. Simply set the number of pizzas you want to make, the desired ball weight, and your preferred water percentage. The app handles all the complex math, ensuring your dough turns out perfectly every time.</p>
+
+        <h3>Pre-fermentation Support</h3>
+        <p>Take your pizza dough to the next level with support for professional pre-fermentation methods. Choose from Poolish (100% hydration), Biga (50% hydration), or a combined approach that uses both techniques. These methods develop deeper flavors and improve texture through extended fermentation.</p>
+      </div>
+      <div class="one-half column">
+        <h3>Flexible Recipe Creation</h3>
+        <p>Create recipes using either percentage-based or weight-based input. If you have a recipe with percentages, enter them directly. If you have specific weights from a recipe, the app will calculate the percentages for you. Both methods give you full control over your dough formulas.</p>
+
+        <h3>Recipe Management</h3>
+        <p>Save and organize multiple recipes with notes and links. Add instructions, fermentation times, and links to videos or websites that inspired your recipe. Reorder recipes by dragging and dropping, and easily edit or delete recipes as your techniques evolve.</p>
+      </div>
+    </div>
+    <div class="row">
+      <div class="column">
+        <h3>Adjustable Settings</h3>
+        <p>Fine-tune your calculations with adjustable settings for number of pizzas (1-20), ball weight (200-300g), water percentage (50-80%), and pre-ferment percentage (0-100%). The app shows recommended values from your recipe while allowing you to experiment with different parameters.</p>
+      </div>
+    </div>
+  </div>
+
+  <hr>
+
+  <!-- Screenshots
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <div id="screenshots" class="container">
+    <div class="row">
+      <div class="column">
+        <div class="screenshot-container">
+          <img src="images/pizzacalc/detail.png" alt="Recipe Detail">
+          <img src="images/pizzacalc/add_by_weight.png" alt="Add by Weight">
+          <img src="images/pizzacalc/add_by_percent.png" alt="Add by Percentages">
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <hr>
+
+  <!-- Help Section
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <div id="help" class="container">
+    <div class="row">
+      <div class="column">
+        <h2>Help & Documentation</h2>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="column">
+        <h3>Recipe Creation</h3>
+        <p>Pizza Calc offers two ways to create recipes:</p>
+        <ul>
+          <li><strong>Add by Percentages:</strong> Enter your recipe using baker's percentages. Specify salt percentage, yeast percentage, optional sugar percentage, water percentage, and choose your pre-fermentation method. This is ideal if you're working from a recipe that uses percentages.</li>
+          <li><strong>Add by Weight:</strong> Enter your recipe using specific weights in grams. Enter the total flour, total water, salt, yeast, and optional sugar amounts. If using pre-fermentation, also enter the pre-ferment flour and water amounts. The app will calculate the percentages automatically.</li>
+        </ul>
+        <p>Both methods allow you to add notes and links to your recipe. Notes can include fermentation times, mixing instructions, or any other details you want to remember. Links can point to YouTube videos, recipe websites, or any other resources that inspired your recipe.</p>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="column">
+        <h3>Pre-fermentation Methods</h3>
+        <p>Pre-fermentation is a technique where a portion of the flour, water, and yeast is mixed ahead of time, typically 12-24 hours before making the final dough. This develops more complex flavors and can improve the texture of your pizza.</p>
+
+        <h4>Poolish</h4>
+        <p>A poolish is a liquid pre-ferment with equal parts flour and water (100% hydration). It's typically made with a small amount of yeast and fermented for 12-18 hours at room temperature. Poolish creates a more open crumb structure and adds subtle sour notes to your dough.</p>
+
+        <h4>Biga</h4>
+        <p>A biga is a stiff pre-ferment with lower hydration (typically 50% hydration, meaning half as much water as flour). It's similar to a poolish but produces different flavors due to the lower water content. Biga tends to create a more structured, chewy texture with less sourness than poolish.</p>
+
+        <h4>Combined Poolish & Biga</h4>
+        <p>The app can also calculate a combined approach that uses both poolish and biga. The app automatically determines the optimal ratio between poolish and biga based on your target water ratio, giving you the benefits of both methods in a single recipe.</p>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="column">
+        <h3>Settings and Calculations</h3>
+        <p>The app calculates ingredient amounts based on several adjustable settings:</p>
+        <ul>
+          <li><strong>Number of Pizzas:</strong> Set how many pizzas you want to make (1-20). The app calculates the total dough needed based on this number and your ball weight.</li>
+          <li><strong>Ball Weight:</strong> Set the weight of each dough ball in grams (200-300g). This determines the size of your pizzas.</li>
+          <li><strong>Water Percentage:</strong> Adjust the hydration level of your dough (50-80%). The app shows the recipe's preferred water percentage, but you can adjust it to experiment. Higher hydration creates a more open crumb but can be harder to handle. Lower hydration creates a drier, easier-to-work dough.</li>
+          <li><strong>Pre-ferment Percentage:</strong> If using pre-fermentation, set what percentage of the total flour should go into the pre-ferment (0-100%). Higher percentages mean more flavor development but require more planning ahead.</li>
+        </ul>
+        <p>The app performs all calculations in real-time as you adjust these settings, showing you the exact amounts needed for each ingredient in both the pre-ferment (if used) and final dough stages.</p>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="column">
+        <h3>Recipe Management</h3>
+        <p>All your recipes are automatically saved and synced across your devices using iCloud. You can:</p>
+        <ul>
+          <li><strong>Edit Recipes:</strong> Tap the edit button on any recipe to modify its name, percentages, notes, or links.</li>
+          <li><strong>Delete Recipes:</strong> Swipe left on any recipe in the list to reveal the delete option. You'll be asked to confirm before deletion.</li>
+          <li><strong>Reorder Recipes:</strong> Tap the Edit button in the top-left corner, then drag recipes up or down to reorder them. Your preferred order is saved automatically.</li>
+          <li><strong>View Details:</strong> Tap any recipe to see the calculated ingredient amounts based on your current settings. Adjust the settings panel to see how different parameters affect the calculations.</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="column">
+        <h3>Recipe Links</h3>
+        <p>Each recipe can include multiple links to external resources. This is perfect for:</p>
+        <ul>
+          <li>YouTube videos that demonstrate the technique</li>
+          <li>Recipe websites or blog posts</li>
+          <li>Online calculators or tools</li>
+          <li>Any other resources that inspired or informed your recipe</li>
+        </ul>
+        <p>When editing a recipe, you can add new links, reorder them, or delete them. Links are displayed in a sheet that opens when you tap the link icon on a recipe detail view.</p>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="column">
+        <h3>Hydration and Water Percentage</h3>
+        <p>The water percentage (also called hydration) is one of the most important factors in pizza dough. It's calculated as the percentage of water relative to flour weight. For example, 60% hydration means 600g of water for every 1000g of flour.</p>
+        <p>Water percentage greatly affects dough texture and handling:</p>
+        <ul>
+          <li><strong>Lower Hydration (50-60%):</strong> Creates a drier, stiffer dough that's easier to handle and shape. Good for beginners or when you want more control during stretching.</li>
+          <li><strong>Medium Hydration (60-65%):</strong> A balanced dough that's still manageable but with better extensibility. This is a common range for Neapolitan-style pizzas.</li>
+          <li><strong>Higher Hydration (65-70%):</strong> Creates a wetter, stickier dough that can be challenging to work with, but produces a more open crumb structure with larger air bubbles. Requires more experience to handle properly.</li>
+          <li><strong>Very High Hydration (70-80%):</strong> Creates a very wet dough that's difficult to handle but can produce exceptional results in the hands of experienced bakers.</li>
+        </ul>
+        <p>The app shows your recipe's preferred water percentage, but you can adjust it to experiment with different hydration levels. The calculations update automatically as you change the water percentage slider.</p>
+      </div>
+    </div>
+  </div>
+
+  <hr>
+
+  <div id="support" class="container">
+    <div class="row">
+      <div class="column">
+        <h2>Support</h2>
+        <p>If you have questions, encounter issues, or have suggestions for improving Pizza Calc, please don't hesitate to reach out:</p>
+        <p><a href="mailto:support@eimermusic.com">support@eimermusic.com</a></p>
+        <p>I'm always happy to help and appreciate your feedback!</p>
+      </div>
+    </div>
+  </div>
+
+  <hr>
+
+  <!-- Footer
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <div id="footer">
-  <div class="container">
-    <div class="row">
-
-      <div class="one-half column">
-        <p>
-          Martin Westin<br>
-          martin [] eimermusic.com<br>
-          +46 (0)709 88 55 88<br>
-        </p>
-      </div>
-
-      <div class="one-half column">
-        <p>
-          <a href="http://extraction.eimermusic.com.s3-website-eu-west-1.amazonaws.com/">Extraction Microsite</a><br>
-          <a href="http://syntar.eimermusic.com.s3-website-eu-west-1.amazonaws.com/">Syntar Microsite</a><br>
-
-          <a href="https://github.com/eimermusic">Github</a><br>
-          <a href="https://soundcloud.com/eimermusic">Soundcloud</a><br>
-          <a href="https://www.flickr.com/people/eimermusic/">Flickr</a><br>
-        </p>
+    <div class="container">
+      <div class="row">
+        <div class="column">
+          <br>
+          <br>
+          <p class="copyright">
+            &copy; 2024-2026 Martin Westin
+          </p>
+        </div>
       </div>
     </div>
-
-    <div class="row">
-      <div class="column">
-        <br>
-        <br>
-        <p class="copyright">
-          &copy; 2002-2019 Martin Westin, all rights reserverd, all wrongs reversed
-        </p>
-      </div>
-
-    </div>
-  </div>
   </div>
 
 <!-- End Document
@@ -100,3 +245,4 @@
 
 </body>
 </html>
+
